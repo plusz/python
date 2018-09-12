@@ -1,0 +1,1 @@
+print(sorted([x[1:-1] for x in re.findall('>k[o|ó].*?<', r.get('http://www.slownikdlagier.pl/slowa-dopuszczalne-w.../ko/').text) if len(x) > 5 and len(x) <= 7]))
